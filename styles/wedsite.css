@@ -151,6 +151,20 @@ h1#acc{
 #nav .current a{
     color:red;
 }
+#hotel{
+    font-family: disco;
+    line-height:1em;
+}
+#location{
+    line-height: 1.5em;
+}
+section#gift{
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+a#registry{
+    font-family: disco;
+}
 footer{
 	font-family: goudybookletter1911, goudy old style;
 	font-size: 0.8em;
