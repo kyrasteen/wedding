@@ -70,7 +70,7 @@ ul#nav{
     color:#999944;
     margin:-40px;
 }
-.nav-collapse ul li{
+#nav-collapse{
     display:none;
 }
 .current{
@@ -175,17 +175,16 @@ footer{
     ul#nav{
         display:none;
     }
-    .nav-collapse ul li{
+    ul#nav-collapse{
         display: block;
+        list-style: none;
+        margin-right: 30%;
+        padding-bottom: 10px;
     }
     a.nav-toggle{
         text-align:right;
         margin-left: 60%;
         line-height: 5px;
-    }
-    #collapse{
-        margin-right: 15%;
-        padding-bottom: 10px;
     }
     #food{
     display:block;

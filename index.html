@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/wedsite.css" media="screen">
     <link rel="stylesheet" type="text/css" href="styles/skeleton1.css" media="screen">
     <link rel="stylesheet" type="text/css" href="styles/responsiveslides.css" media="screen">
-    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     
     <!--responsive nav=================-->
     
@@ -30,13 +30,12 @@
     
     <!--responsive slide=========================-->
     
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/responsiveslides.min.js"></script>  
     
     
     <!--one-page-nav=============-->
     
-    <script src="jquery.nav.min.js"></script>
+    
     
     <!--map=================================-->
     
@@ -86,7 +85,7 @@ fern_cut.png" class="sixteen columns">
 	<nav>
         <div>
 		<ul id="nav" class="sixteen columns">
-			<li><a href="#top">top</a></li>
+			<li class="current"><a href="#top">top</a></li>
             <li><a href="#photographs">photographs</a></li>
             <li><a href="#bridalParty">bridal party</a></li>
 			<li><a href="#map">map</a></li>
@@ -96,22 +95,22 @@ fern_cut.png" class="sixteen columns">
         </div>
 	</nav>
         </div>
-    <nav class="nav-collapse">
-  <ul>
-    <li><a id="collapse" class="sixteen columns" href="#top">top</a></li>
-    <li><a id="collapse" class="sixteen columns" href="#photographs">photographs</a></li>
-    <li><a id="collapse" class="sixteen columns" href="#bridalParty">bridal party</a></li>
-    <li><a id="collapse" class="sixteen columns" href="#map">map</a></li>
-    <li><a id="collapse" class="sixteen columns" href="#acc">accomodation</a></li>  
-    <li><a id="collapse" class="sixteen columns" href="#gift">gift</a></li>  
-  </ul>
-</nav>
+    <nav class="container">
+        <ul id="nav-collapse" class="sixteen columns">
+            <li><a id="top" class="current" href="#top">top</a></li>
+            <li><a id="collapse" class="sixteen columns" href="#photographs">photographs</a></li>
+            <li><a id="collapse" class="sixteen columns" href="#bridalParty">bridal party</a></li>
+            <li><a id="collapse" class="sixteen columns" href="#map">map</a></li>
+            <li><a id="collapse" class="sixteen columns" href="#acc">accomodation</a></li>  
+            <li><a id="collapse" class="sixteen columns" href="#gift">gift</a></li>  
+        </ul>
+    </nav>
 </header>
 <body>
     
 <!--green================================-->
     
-    <section id="about"class="container">
+    <section id="top"class="container">
         <div id="green" class="sixteen columns">
             <div id="kyra" class="seven columns offset-by-one">
                 <h1 id="bride">bride</h1>
@@ -211,16 +210,17 @@ Throughout the rest of our time in northern California, we lived two blocks apar
 <script>
   var nav = responsiveNav(".nav-collapse");
 </script>
-    
+<script src="js/jquery.nav.js"></script>    
 <script>
   $(function() {
     $(".rslides").responsiveSlides();
+    $('#nav, #nav-collapse').onePageNav();
   });
 </script>
 <script>
     $(document).ready(function() {
-  $('#nav').onePageNav();
-});
+        
+    });
 </script>
     
 </body>
