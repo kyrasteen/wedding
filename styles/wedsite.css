@@ -1,0 +1,204 @@
+
+html{
+	font-family:disco;
+	color:#999944;
+	text-align:center;
+	font-size: 62.5%;  /*ems*/
+	line-height: 25px;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header{
+    position:fixed;
+    z-index: 20;
+    background:#ffffff;
+    width: 100%;
+    margin-top: -20px;
+}
+h1{
+	font-size: 1.5em;
+	color:#99bb66;
+	letter-spacing: 0.3em;
+	text-align:center;
+	display:inline;
+    text-transform: uppercase;
+    font-family: goudybookletter1911, goudyoldstyle;
+}
+p{
+    color:#ffffff;
+    font-size: 1.3em;
+    font-family:disco;
+}
+#green{
+    padding:30px 5px 30px 5px;
+    margin-top: 180px;
+    
+}
+#green h1{
+    font-size: 2.3em;
+    line-height: 2.5em;
+}
+#homeHome {
+    margin-top:-40px;
+	border:none;
+    width:40em;
+}
+h2{
+	letter-spacing: 2px;
+    font-size: 1.3em;
+    color:#999944;
+    line-height: 0;
+    font-family: goudybookletter1911, goudy old style;
+}
+nav{
+    text-align: right;
+}
+#nav li{
+	text-decoration: none;
+	display: inline;
+	word-spacing: 2px;
+	text-align:right;
+	letter-spacing:2px;
+    color:#999944;
+    padding:7px;
+    font-family: goudybookletter1911, goudy old style;
+}
+ul#nav{	
+	text-align: right;
+    color:#999944;
+    margin:-40px;
+}
+.nav-collapse ul li{
+    display:none;
+}
+.current{
+    opacity: .6;
+}
+a{
+	text-decoration: none;
+	font-size: 1.4em;
+    color:#999944;
+    font-family: goudybookletter1911, goudy old style;
+    letter-spacing: 2px;
+}
+a:active{
+color:#fff;
+}
+a:hover{
+	opacity:.80;
+}
+#photos{
+    top:30px;
+} 
+#bridal, #green{
+    background-color:#607c33; 
+    opacity:.70;
+    border: 3px solid #999944;
+}
+#bridal{
+    padding-top:30px;
+}
+#bridal h1{
+    font-size: 2.3em;
+}
+#kyra{
+    text-align: right;
+}
+#groom{
+    text-align:left;
+}
+#about{
+    padding-bottom: 30px;
+}
+#events{
+    padding: 30px;
+}
+article#events h1{
+    font-family: disco;
+}
+#bridalParty{
+    margin:auto;
+}
+#gentlemen{
+    padding-top: 120px;
+}
+#kelly{
+    text-align: right;
+}
+#mila{
+    text-align: left;
+}
+#map-canvas{
+    display:block;
+    border:1px solid #999944;
+    height:200px;
+    margin-top:30px;
+}
+#address{
+	text-align: center;
+    font-family:goudybookletter1911, goudy old style;
+    color:#999911;
+    display:inline;
+    font-size: 1.3em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h1#acc{
+    margin-top:10px;
+}
+#nav .current a{
+    color:red;
+}
+footer{
+	font-family: goudybookletter1911, goudy old style;
+	font-size: 0.8em;
+	text-align:center;
+	display:block;
+}
+@media only screen and (max-width: 959px) {
+    ul#nav{
+        display:none;
+    }
+    .nav-collapse ul li{
+        display: block;
+    }
+    a.nav-toggle{
+        text-align:right;
+        margin-left: 60%;
+        line-height: 5px;
+    }
+    #collapse{
+        margin-right: 15%;
+        padding-bottom: 10px;
+    }
+    #food{
+    display:block;
+    line-height: 2em;
+    }
+} 
+
+@media only screen and (max-width:770px) {
+    #groom{
+    padding-top: 30px;
+    }
+    #together{
+    padding-top: 30px;
+    }
+    h2#address {
+        line-height: 1.4em;
+    }
+    h2#address #a2{
+    display:block;
+    }
+    h2#address #a3{
+    display:block;
+    }
+}
+@media only screen and (max-width:460px) {
+    header{
+    margin-top:-70px;
+    }
+    
+}
