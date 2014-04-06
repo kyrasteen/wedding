@@ -147,16 +147,21 @@ article#events h1{
 }
 h1#acc{
     margin-top:10px;
+    margin-bottom: 10px;
 }
-#nav .current a{
-    color:red;
-}
-#hotel{
+.hotel{
     font-family: disco;
     line-height:1em;
+    font-size: 1.7em;
+    border:4px solid #99bb66;
+    padding:.6em;
 }
-#location{
+.location{
     line-height: 1.5em;
+}
+#stay{
+    border:3px solid #999944;
+    padding-bottom: 40px;
 }
 section#gift{
     margin-top: 30px;
@@ -164,35 +169,67 @@ section#gift{
 }
 a#registry{
     font-family: disco;
+    border:4px solid #99bb66; 
+    padding:5px;
+}
+img#bottom {
+    display:inline-block;
+    float:right;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    margin-right: 110px;
+    margin-top: -130px;
+}
+#gift{
+    line-height: 20px;
 }
 footer{
 	font-family: goudybookletter1911, goudy old style;
 	font-size: 0.8em;
 	text-align:center;
-	display:block;
+	display:inline;
+    float:right;
+    margin-top: 50px;
 }
-@media only screen and (max-width: 959px) {
-    ul#nav{
+@media only screen and (max-width: 960px) {
+    #food{
+    display:block;
+    line-height: 2em;
+    }
+    .nav-toggle{
+    display:none;
+    }
+} 
+
+@media only screen and (max-width:775px) {
+     ul#nav{
         display:none;
     }
     ul#nav-collapse{
         display: block;
         list-style: none;
-        margin-right: 30%;
-        padding-bottom: 10px;
+        width:100%;
+        margin-top: -240px;
+        position: fixed;
+        z-index: 25;
+        background-color: #ffffff;
+        padding-top: 2em;
+    }
+    ul#nav-collapse li{
+        line-height: 2.5em;
+    }
+    ul#nav-collapse li a{
+        margin-right: 40px;
     }
     a.nav-toggle{
         text-align:right;
         margin-left: 60%;
         line-height: 5px;
+        display: block;
+        padding: 2em;
+        font-family: disco;
     }
-    #food{
-    display:block;
-    line-height: 2em;
-    }
-} 
-
-@media only screen and (max-width:770px) {
     #groom{
     padding-top: 30px;
     }
@@ -209,9 +246,8 @@ footer{
     display:block;
     }
 }
-@media only screen and (max-width:460px) {
-    header{
+@media only screen and (max-width:470px) {
+    header:not(ul#nav-collapse){
     margin-top:-70px;
     }
-    
 }

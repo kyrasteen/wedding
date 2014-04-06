@@ -33,9 +33,6 @@
     <script src="js/responsiveslides.min.js"></script>  
     
     
-    <!--one-page-nav=============-->
-    
-    
     
     <!--map=================================-->
     
@@ -85,7 +82,7 @@ fern_cut.png" class="sixteen columns">
 	<nav>
         <div>
 		<ul id="nav" class="sixteen columns">
-			<li class="current"><a href="#top">top</a></li>
+			<li class="current"><a href="#us">us</a></li>
             <li><a href="#photographs">photographs</a></li>
             <li><a href="#bridalParty">bridal party</a></li>
 			<li><a href="#map">map</a></li>
@@ -97,12 +94,12 @@ fern_cut.png" class="sixteen columns">
         </div>
     <nav class="container">
         <ul id="nav-collapse" class="sixteen columns">
-            <li><a id="top" class="current" href="#top">top</a></li>
-            <li><a id="collapse" class="sixteen columns" href="#photographs">photographs</a></li>
-            <li><a id="collapse" class="sixteen columns" href="#bridalParty">bridal party</a></li>
-            <li><a id="collapse" class="sixteen columns" href="#map">map</a></li>
-            <li><a id="collapse" class="sixteen columns" href="#acc">accomodation</a></li>  
-            <li><a id="collapse" class="sixteen columns" href="#gift">gift</a></li>  
+            <li><a class="current" href="#us">us</a></li>
+            <li><a href="#photographs">photographs</a></li>
+            <li><a href="#bridalParty">bridal party</a></li>
+            <li><a href="#map">map</a></li>
+            <li><a href="#acc">accomodation</a></li>  
+            <li><a href="#gift">gift</a></li>  
         </ul>
     </nav>
 </header>
@@ -110,7 +107,7 @@ fern_cut.png" class="sixteen columns">
     
 <!--green================================-->
     
-    <section id="top"class="container">
+    <section id="us" name="us" class="container">
         <div id="green" class="sixteen columns">
             <div id="kyra" class="seven columns offset-by-one">
                 <h1 id="bride">bride</h1>
@@ -185,30 +182,33 @@ Throughout the rest of our time in northern California, we lived two blocks apar
         <h2 id="address" class="sixteen columns">The Loft on Pine  <span id="a2">230 Pine Avenue</span>  <span id="a3">Long Beach, CA 90802</span>
         </h2>
     </section>
+    <div class="container">
+        <section class="container" id="stay">
+            <h1 id="acc" name="acc" class="sixteen columns">accomodations</h1>
+            <div class="one-third column">
+                <h2 class="location" ><i>At the beach</i> <br> We recommend Hermosa, Hungington, or Manhattan Beach!</h2> 
+                <a class="hotel" href="airbnb.com">Airbnb</a>
+            </div>
+            <div class="one-third column">
+                <h2 class="location" ><i>walk to the venue</i><br> Modern facade, historic, and tiny. For the adventuresome guest.</h2>
+                <a class="hotel" href="http://www.thevardenhotel.com/photo%20gallery.htm#photo">The Varden</a>
+            </div>
+            <div class="one-third column">
+                <h2 class="location" ><i>In town</i><br>Class and elegance, near the venue. Offering a 10% discount</h2>
+                <a class="hotel" href="http://www.longbeach.hyatt.com/en/hotel/home.html">The Hyatt</a>
+            </div>
+        </section>
+    </div>
     <section class="container">
-        <h1 id="acc" name="acc" class="sixteen columns">accomodations</h1>
-        <div class="one-third column">
-           <h2 id="location" >At the beach! <br> Hermosa, Hungington, or Manhattan?!</h2> 
-            <a id="hotel" href="airbnb.com">Airbnb</a>
-        </div>
-        <div class="one-third column">
-            <h2 id="location" >Walk to the venue!<br> Funky, historic, and quaint.</h2>
-            <a id="hotel" href="http://www.thevardenhotel.com/photo%20gallery.htm#photo">The Varden Hotel</a>
-        </div>
-        <div class="one-third column">
-            <h2 id="location" >In town<br>Fancy!</h2>
-            <a id="hotel" href="http://www.longbeach.hyatt.com/en/hotel/home.html">The Hyatt</a>
-        </div>
+        <h1 class="sixteen columns">Gift</h1>
+        <h2 id="gift" class="sixteen columns">We are fortunate enough to already have the material items<br> we need, and would greatly appreciate monetary gifts<br> to pay for our celebration!</h2>
+        <a id="registry" href="">So Kind Registry</a><br>
+    <h1 id="thanks">Thank you!</h1>
     </section>
-    <section id="gift">
-        <h1>Gift</h1>
-        <h2>Contribute towards our fund to pay for our celebration!</h2>
-        <a id="registry" href="">So Kind Registry</a>
-    </section>
-    <h1>Thank you!</h1>
+    <img id="bottom" src="img/fern_cut.gif" class="sixteen columns" width="300px" height="auto">
     
 <script>
-  var nav = responsiveNav(".nav-collapse");
+  var nav = responsiveNav("#nav-collapse");
 </script>
 <script src="js/jquery.nav.js"></script>    
 <script>
