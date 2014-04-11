@@ -273,7 +273,7 @@ footer h3{
         margin-top: 0;
     }
 }
-@media only screen and (max-width:470px) {
+@media only screen and (max-width:480px) {
     img#homeHome{
     margin-top:-90px;
     }
@@ -292,5 +292,8 @@ footer h3{
     #kyra p, #groom p, #together p, #kelly p, #mila p, #matt p, #andy p{
         padding-right:1.2em;
         padding-left: 1.2em;
+    }
+   body{
+        margin-left: -10px;
     }
 }
