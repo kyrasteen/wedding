@@ -199,6 +199,9 @@ footer{
     float:right;
     margin-top: 50px;
 }
+footer h3{
+    text-align: center;
+}
 @media only screen and (max-width: 960px) {
     #food{
     display:block;
@@ -238,37 +241,55 @@ footer{
         font-family: disco;
     }
     #groom{
-    padding-top: 30px;
+        padding-top: 30px;
     }
     #together{
-    padding-top: 30px;
+        padding-top: 30px;
     }
     h2#address {
         line-height: 1.4em;
     }
     h2#address #a2{
-    display:block;
+        display:block;
     }
     h2#address #a3{
-    display:block;
+        display:block;
     }
     #ceremony, #cocktails, #food{
-    margin-top: 30px;
-}
+        margin-top: 30px;
+    }
     .location{
-    line-height: 1.5em;
-    margin-bottom: 15px;
-    margin-top: 20px;
-}
+        line-height: 1.5em;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
     #giftTitle{
         margin-top: 15px;
     }
+    img#bottom{
+        margin-top:-30px;
+    }
+    footer{
+        margin-top: 0;
+    }
 }
 @media only screen and (max-width:470px) {
-    header:not(ul#nav-collapse){
-    margin-top:-70px;
+    img#homeHome{
+    margin-top:-90px;
     }
-    html{
-        margin-right: 5%;
+    ul#nav-collapse{
+        margin-top:-190px;
+    }
+    a.nav-toggle{
+        text-align: left;
+        float:left;
+        margin-left: 5px;
+        position: relative;
+        z-index: 30;
+        
+    }
+    #kyra p, #groom p, #together p, #kelly p, #mila p, #matt p, #andy p{
+        padding-right:1.2em;
+        padding-left: 1.2em;
     }
 }
