@@ -268,4 +268,7 @@ footer{
     header:not(ul#nav-collapse){
     margin-top:-70px;
     }
+    html{
+        margin-right: 5%;
+    }
 }
