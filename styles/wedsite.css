@@ -235,7 +235,7 @@ footer h3{
     a.nav-toggle{
         text-align:right;
         margin-left: 60%;
-        line-height: 5px;
+        line-height: 3px;
         display: block;
         padding: 2em;
         font-family: disco;
@@ -278,7 +278,7 @@ footer h3{
     margin-top:-90px;
     }
     ul#nav-collapse{
-        margin-top:-190px;
+        margin-top:-170px;
     }
     a.nav-toggle{
         text-align: left;
@@ -286,6 +286,7 @@ footer h3{
         margin-left: 5px;
         position: relative;
         z-index: 30;
+        margin-top: -30px;
         
     }
     #kyra p, #groom p, #together p, #kelly p, #mila p, #matt p, #andy p{
