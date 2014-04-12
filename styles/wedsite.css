@@ -4,7 +4,7 @@ html{
 	color:#999944;
 	text-align:center;
 	font-size: 62.5%;  /*ems*/
-	line-height: 25px;
+	line-height: 20px;
 }
 html, body {
     max-width: 100%;
@@ -34,7 +34,6 @@ p{
 #green{
     padding:30px 0 30px 0;
     margin-top: 180px;
-    
 }
 #green h1{
     font-size: 2.3em;
@@ -108,18 +107,37 @@ a:hover{
 }
 #kyra{
     text-align: right;
+    margin: auto 0;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+}
+#kyra p, #groom p{
+    padding:5px;
 }
 #kyra h2{
     margin-right: 5px;
 }
 #groom{
     text-align:left;
+    margin: auto 0;
+    display: inline-block;
+    position: relative;
+    margin-left: 8px;
 }
 #groom h2, #groom h1{
     margin-left: 5px;
 }
 #about{
     padding-bottom: 30px;
+}
+#together{
+        display:block;
+        position: relative;
+    }
+#together p{
+    padding-left: 10px;
+    padding-right:10px;
 }
 #events{
     padding: 30px;
@@ -131,17 +149,24 @@ article#events h1{
     font-family: disco;
 }
 #bridalParty{
-    margin:auto;
+    margin:auto 0;
     padding-bottom: 15px;
+    display: block;
 }
 #gentlemen{
     padding-top: 120px;
+    display: block;
+    position: relative;
 }
 #kelly{
     text-align: right;
+    margin:auto 0;
+    margin-right: 7px;
 }
 #mila{
     text-align: left;
+    margin: auto 0;
+    margin-left: 7px;
 }
 #map-canvas{
     display:block;
@@ -222,6 +247,13 @@ footer{
 footer h3{
     text-align: center;
 }
+.mapLink{
+    font-size: .7em;
+    text-align: center;
+    padding:3px;
+    letter-spacing: 1px;
+    
+}
 @media only screen and (max-width: 960px) {
     #food{
     display:block;
@@ -232,7 +264,7 @@ footer h3{
     }
 } 
 
-@media only screen and (max-width:775px) {
+@media only screen and (max-width:780px) {
      ul#nav{
         display:none;
     }
@@ -260,11 +292,14 @@ footer h3{
         padding: 2em;
         font-family: disco;
     }
-    #groom{
-        padding-top: 30px;
-    }
     #together{
-        padding-top: 30px;
+        padding-top: 25px;
+        display:block;
+        position: relative;
+    }
+    #kelly p, #mila p, #mila h2, #kelly h2{
+        padding-left: 1em;
+        padding-right:1em;
     }
     h2#address {
         line-height: 1.4em;
@@ -309,11 +344,15 @@ footer h3{
         margin-top: -30px;
         
     }
-    #kyra p, #groom p, #together p, #kelly p, #mila p, #matt p, #andy p{
+    #kyra p, #groom p, #matt p, #andy p{
         padding-right:1.2em;
         padding-left: 1.2em;
     }
-   body{
-        margin-left: -5px;
+    #groom{
+        padding-top: 30px;
     }
+  #gift{
+    padding:.5em;
+  }
+    
 }

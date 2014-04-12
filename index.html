@@ -55,9 +55,10 @@
 		});
         
 		var infowindow=new google.maps.InfoWindow({
-			content:"The Loft on Pine",
+			content:'<h1 class="mapLink">The Loft on Pine</h1>' + '<br>' + '<a  target="_blank" class="mapLink" href="https://maps.google.com/maps?hq=http:%2F%2Fmaps.google.com%2Fhelp%2Fmaps%2Fdirections%2Fdriving%2Fmapleft.kml&dirflg=d&t=h&z=2">' + 'get directions</a>',
             position:myCenter,
-            map:map
+            map:map,
+            maxWidth: 150
 		});
         
 infowindow.open(map,origin);
@@ -108,18 +109,18 @@ fern_cut.png" class="sixteen columns">
 <!--green================================-->
     
     <section id="us" name="us" class="container">
-        <div id="green" class="sixteen columns">
-            <div id="kyra" class="seven columns offset-by-one">
+        <div id="green" class="sixteen columns clearfix">
+            <div id="kyra" class="eight columns alpha">
                 <h1 id="bride">bride</h1>
                 <h2>kyra weber</h2>
                 <p>I grew up in the small town of Sisters, Oregon. My time spent there, absorbed in the tightly knit community and surrounded by the central Oregon landscape, shaped who I am today. I spent time outdoors and pursuing creative expression.  I attended Humboldt State University in northern California for studio art and business. I now live with Christopher in Boulder, Colorado where I am pursuing the art of web design and development.</p>
             </div>
-        <div id="groom" class="seven columns">
+        <div id="groom" class="eight columns omega">
             <h1>groom</h1>
             <h2>christopher steenbock</h2>
             <p>asdlkfjasdlkfjdkj</p>
         </div>
-        <div class="fourteen columns offset-by-one" id="together">
+        <div id="together" class="sixteen columns alpha">
             <h1>together</h1>
             <p>
                 We met in an economics class at Humboldt State University. Kyra was studying art and business and Christopher was studying biology and botany.  After quite some time, and one coffee date, Kyra asked Chris to go skiing, (and had secretly already rented his gear). After being rained out of the slushy snow, we had a wonderful dinner together. We have been together for over six lovely years.
@@ -157,21 +158,21 @@ Throughout the rest of our time in northern California, we lived two blocks apar
         </article>
     <section class="container">
         <div class="sixteen columns" id="bridal">
-        <h1 id="bridalParty" name="bridalParty" class="sixteen columns">ladies</h1>
-            <article id="kelly" class="seven columns offset-by-one">
+        <h1 id="bridalParty" name="bridalParty">ladies</h1>
+            <article id="kelly" class="eight columns">
                 <h2>Kelly Morton</h2>
                 <p>Beginning at the age of seven, Kelly and Kyra could be found side by side while fishing, hiking, eating, biking, dancing, on stilts, on stage, on horse, on rikshaw, in hay, in snow, and in water.....Kelly is a beatuful person, one that Kyra would not want to be without in this life! She lives in central Oregon where she is a Waldorf school teacher.  Kelly and her family have contributed greatly to who Kyra is today.</p>
             </article>
-            <article id="mila" class="seven columns">
+            <article id="mila" class="eight columns">
                 <h2>Mila Bock</h2>
                 <p>Mila responded to a Craigslist ad for a roommate that Kyra posted while attending college at Humboldt State University. After that initial meeting and a poorly planned canoe trip, they were not only roommates, but close friends. Countless hours were spent with Mila at the kitchen table sipping coffee or beer, rambling on about life, while attempting to study. Mila has an admirable sense of adventure, and independence; a top-knotch lady!</p>
             </article>
-            <h1 id="gentlemen" class="sixteen columns">gentlemen</h1>
-            <article id="andy" class="five columns offset-by-two">
+            <h1 id="gentlemen">gentlemen</h1>
+            <article id="andy" class="eight columns">
                 <h2>Andy Steenbock</h2>
                 <p>asldkfjasdlkfj</p>
             </article>
-            <article id="matt" class="five columns offset-by-two">
+            <article id="matt" class="eight columns">
                 <h2>Matt Dino</h2>
                 <p>sdfasdfsd</p>
             </article>  
@@ -199,7 +200,7 @@ Throughout the rest of our time in northern California, we lived two blocks apar
         </section>
     <section class="container" id="giftSection">
         <h1 id="giftTitle" class="sixteen columns">Gift</h1>
-        <h2 id="gift" class="sixteen columns">We are fortunate enough to already have the material items<br> we need, and would greatly appreciate monetary gifts<br> to pay for our celebration!</h2>
+        <h2 id="gift">We are fortunate enough to already have the material items<br> we need, and would greatly appreciate monetary gifts<br> to pay for our celebration!</h2>
         <a id="registry" href="">So Kind Registry</a><br>
     </section>
     <h1 id="thanks">Thank you!</h1>
