@@ -89,11 +89,11 @@ color:#fff;
 a:hover{
 	opacity:.80;
 }
-#photos{
-    top:30px;
+#photographs{
+    margin-top:30px;
 } 
 #bridal, #green{
-    background-color:#607c33; 
+    background-color:#587605; 
     opacity:.70;
     border: 3px solid #999944;
 }
@@ -103,11 +103,20 @@ a:hover{
 #bridal h1{
     font-size: 2.3em;
 }
+#bridal h2{
+    margin: 5px;
+}
 #kyra{
     text-align: right;
 }
+#kyra h2{
+    margin-right: 5px;
+}
 #groom{
     text-align:left;
+}
+#groom h2, #groom h1{
+    margin-left: 5px;
 }
 #about{
     padding-bottom: 30px;
@@ -123,6 +132,7 @@ article#events h1{
 }
 #bridalParty{
     margin:auto;
+    padding-bottom: 15px;
 }
 #gentlemen{
     padding-top: 120px;
@@ -171,11 +181,21 @@ h1#acc{
     margin-top: 15px;
     margin-bottom:30px;
     line-height: 20px;
+    color:white;
+    font-family: disco, sans-serif;
+}
+#giftSection{
+    background: #587605;
+    opacity:.70;
+    border:3px solid #999944;
+    padding-bottom: 15px;
+    margin-top: 30px;
 }
 #registry{
-    font-family: disco;
-    border:4px solid #99bb66; 
+    font-family: goudy bookletter1911, goudy old style;
+    border:4px solid #999944; 
     padding:5px;
+    color: #99bb66;
 }
 img#bottom {
     display:inline-block;
