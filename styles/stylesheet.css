@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'goudy_bookletter_1911regular';
-    src: url('/Users/Kyra/documents/coding/wedsite/styles/goudy_bookletter_1911-webfont.eot');
-    src: url('/Users/Kyra/documents/coding/wedsite/styles/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/Users/Kyra/documents/coding/wedsite/styles/goudy_bookletter_1911-webfont.woff') format('woff'),
-         url('/Users/Kyra/documents/coding/wedsite/styles/goudy_bookletter_1911-webfont.ttf') format('truetype'),
-         url('/Users/Kyra/documents/coding/wedsite/styles/goudy_bookletter_1911-webfont.svg#webfontiT6p4ac4') format('svg');
+    src: url('/styles/goudy_bookletter_1911-webfont.eot');
+    src: url('/styles/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/styles/goudy_bookletter_1911-webfont.woff') format('woff'),
+         url('/styles/goudy_bookletter_1911-webfont.ttf') format('truetype'),
+         url('/styles/goudy_bookletter_1911-webfont.svg#goudy_bookletter_1911regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
