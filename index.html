@@ -55,7 +55,7 @@
 		});
         
 		var infowindow=new google.maps.InfoWindow({
-			content:'<h1 class="mapLink">The Loft on Pine</h1>' + '<br>' + '<a  target="_blank" class="mapLink" href="https://maps.google.com/maps?hq=http:%2F%2Fmaps.google.com%2Fhelp%2Fmaps%2Fdirections%2Fdriving%2Fmapleft.kml&dirflg=d&t=h&z=2">' + 'get directions</a>',
+			content:"The Loft on Pine",
             position:myCenter,
             map:map,
             maxWidth: 150
@@ -76,7 +76,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <header>
     <div class="container">
             <img id="homeHome" src="img/
-fern_cut.png" class="sixteen columns">
+fern2_cut.png" class="sixteen columns">
     
 <!--internal links========================================-->
     
@@ -95,6 +95,7 @@ fern_cut.png" class="sixteen columns">
         </div>
     <nav class="container">
         <ul id="nav-collapse" class="sixteen columns">
+            <!--<img src="img/fern_cut.gif" width="150px" height="auto" id="imgCollapse">-->
             <li><a class="current" href="#us">us</a></li>
             <li><a href="#photographs">photographs</a></li>
             <li><a href="#bridalParty">bridal party</a></li>
@@ -143,15 +144,15 @@ Throughout the rest of our time in northern California, we lived two blocks apar
             </ul>
     </div>
         <article id="events" class="container">
-            <div id="ceremony" class="three columns offset-by-three">
+            <div id="ceremony" class="one-third column">
                 <h1>4:30</h1>
                 <h2>ceremony</h2>
             </div>
-            <div id="cocktails" class="four columns">
+            <div id="cocktails" class="one-third column">
             <h1>5:00</h1>
             <h2>cocktails!</h2>
             </div>
-            <div id="food" class="three columns">
+            <div id="food" class="one-third column">
             <h1>6:30</h1>
             <h2>food + <span id="fest">festivities</span></h2>
             </div>
@@ -182,6 +183,12 @@ Throughout the rest of our time in northern California, we lived two blocks apar
         <div id="map-canvas" class="sixteen columns"></div>
         <h2 id="address" class="sixteen columns">The Loft on Pine  <span id="a2">230 Pine Avenue</span>  <span id="a3">Long Beach, CA 90802</span>
         </h2>
+        <form action="http://maps.google.com/maps" method="get" target="_blank">
+   <label for="saddr">Enter your location</label>
+   <input type="text" name="saddr" />
+   <input type="hidden" name="daddr" value="230 Pine Avenue Long Beach California 90802" />
+   <input type="submit" value="Get directions" />
+</form>
     </section>
         <section class="container" id="stay">
             <h1 id="acc" name="acc" class="sixteen columns">accomodations</h1>
@@ -203,7 +210,6 @@ Throughout the rest of our time in northern California, we lived two blocks apar
         <h2 id="gift">We are fortunate enough to already have the material items<br> we need, and would greatly appreciate monetary gifts<br> to pay for our celebration!</h2>
         <a id="registry" href="">So Kind Registry</a><br>
     </section>
-    <h1 id="thanks">Thank you!</h1>
  <!-- js =============-->
     
 <script>
@@ -223,8 +229,9 @@ Throughout the rest of our time in northern California, we lived two blocks apar
 </script>
     
 </body>
-<footer>
-    <img id="bottom" src="img/fern_cut.gif" class="sixteen columns" width="300px" height="auto">
+<footer class="container">
+    <h1 id="thanks" class="eight columns">Thank you!</h1>
+    <img id="bottom" class="eight columns" src="img/fern_cut.gif" width="30em" height="auto">
     <h3>Kyra design &copy 2014</h3>
 </footer>
 </html>
