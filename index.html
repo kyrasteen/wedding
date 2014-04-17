@@ -1,4 +1,4 @@
-<!--This is a test. -->
+
 <!DOCTYPE html>
 <head>
 	<meta name="description" content="Kyra and Christopher are getting married!">
@@ -22,50 +22,44 @@
         //dropdown//
         $("<select />").appendTo(".nav-collapse ul");
     });
-    
     </script>
-    
-    
-	<title>Kyra and Christopher's wedding website</title>
+    <title>Kyra and Christopher's wedding website</title>
     
     <!--responsive slide=========================-->
     
     <script src="js/responsiveslides.min.js"></script>  
-    
-    
     
     <!--map=================================-->
     
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     
 	<script>
-        
-    function initialize() {
-        var myCenter=new google.maps.LatLng(33.768918, -118.19227);
-    var mapOptions = {
-    zoom: 8,
-    center: myCenter,
-  }
-   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        function initialize() {
+            var myCenter=new google.maps.LatLng(33.768918, -118.19227);
+            var mapOptions = {
+                zoom: 8,
+                center: myCenter,
+            }
+            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     
-  var marker=new google.maps.Marker({
-			position:myCenter,
-            map:map,
-            title:"The Loft on Pine"
-		});
+            var marker=new google.maps.Marker({
+			     position:myCenter,
+                map:map,
+                title:"The Loft on Pine"
+		      });
         
-		var infowindow=new google.maps.InfoWindow({
-			content:"The Loft on Pine",
-            position:myCenter,
-            map:map,
-            maxWidth: 150
-		});
+		      var infowindow=new google.maps.InfoWindow({
+                content:"The Loft on Pine",
+                position:myCenter,
+                map:map,
+                maxWidth: 150
+		      });
         
-infowindow.open(map,origin);
+            infowindow.open(map,origin);
     
-setTimeout(function () { infowindow.close(); }, 5000);
-    }     
-google.maps.event.addDomListener(window, 'load', initialize);
+            setTimeout(function () { infowindow.close(); }, 5000);
+        }     
+        google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
     
 </head>
@@ -73,123 +67,121 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <body>
     <div class="container">
     
-    <!--navigation and title--
-======================================================-->
+    <!--navigation and title================================================-->
         
         <header>
-    
-            <img id="homeHome" src="img/
-fern_cut.png" class="six columns alpha">
+            <img id="homeHome" src="img/fern_cut.png" class="six columns alpha">
     
 <!--internal links========================================-->
     
-	<nav>
-		<ul id="nav" class="ten columns omega">
-			<li class="current"><a href="#us">us</a></li>
-            <li><a href="#photographs">photographs</a></li>
-            <li><a href="#bridalParty">bridal party</a></li>
-			<li><a href="#map">map</a></li>
-			<li><a href="#acc">accomodations</a></li>    
-			<li><a href="#gift">gift</a></li>
-		</ul>
-	</nav>
-    <nav>
-        <ul id="nav-collapse" class="eight columns">
-            <!--<img src="img/fern_cut.gif" width="150px" height="auto" id="imgCollapse">-->
-            <li><a class="current" href="#us">us</a></li>
-            <li><a href="#photographs">photographs</a></li>
-            <li><a href="#bridalParty">bridal party</a></li>
-            <li><a href="#map">map</a></li>
-            <li><a href="#acc">accomodation</a></li>  
-            <li><a href="#gift">gift</a></li>  
-        </ul>
-    </nav>
-</header>
+           <nav>
+                <ul id="nav" class="ten columns omega">
+                    <li class="current"><a href="#us">us</a></li>
+                    <li><a href="#photographs">photographs</a></li>
+                    <li><a href="#bridalParty">bridal party</a></li>
+                    <li><a href="#map">map</a></li>
+                    <li><a href="#acc">accomodations</a></li>    
+                    <li><a href="#gift">gift</a></li>
+                </ul>
+           </nav>
+            <nav>
+                <ul id="nav-collapse" class="eight columns">
+                    <!--<img src="img/fern_cut.gif" width="150px" height="auto" id="imgCollapse">-->
+                    <li><a class="current" href="#us">us</a></li>
+                    <li><a href="#photographs">photographs</a></li>
+                    <li><a href="#bridalParty">bridal party</a></li>
+                    <li><a href="#map">map</a></li>
+                    <li><a href="#acc">accomodation</a></li>  
+                    <li><a href="#gift">gift</a></li>  
+                </ul>
+            </nav>
+        </header>
     
 <!--green================================-->
     
-    <article id="us" name="us">
-        <div id="green" class="sixteen columns clearfix">
-            <div id="kyra" class="eight columns alpha">
-                <h1 id="bride">bride</h1>
-                <h2>kyra weber</h2>
-                <p>I grew up in the small town of Sisters, Oregon. My time spent there, absorbed in the tightly knit community and surrounded by the central Oregon landscape, shaped who I am today. I spent time outdoors and pursuing creative expression.  I attended Humboldt State University in northern California for studio art and business. I now live with Christopher in Boulder, Colorado where I am pursuing the art of web design and development.</p>
-            </div>
-        <div id="groom" class="eight columns omega">
-            <h1>groom</h1>
-            <h2>christopher steenbock</h2>
-            <p>asdlkfjasdlkfjdkj</p>
-        </div>
-        <div id="together" class="sixteen columns">
-            <h1>together</h1>
-            <p>
-                We met in an economics class at Humboldt State University. Kyra was studying art and business and Christopher was studying biology and botany.  After quite some time, and one coffee date, Kyra asked Chris to go skiing, (and had secretly already rented his gear). After being rained out of the slushy snow, we had a wonderful dinner together. We have been together for over six lovely years.
+        <article id="us" name="us">
+            <div id="green" class="sixteen columns clearfix">
+                <div id="kyra" class="eight columns alpha">
+                    <h1 id="bride">bride</h1>
+                    <h2>kyra weber</h2>
+                    <p>I grew up in the small town of Sisters, Oregon. My time spent there, absorbed in the tightly knit community and surrounded by the central Oregon landscape, shaped who I am today. I spent time outdoors and pursuing creative expression.  I attended Humboldt State University in northern California for studio art and business. I now live with Christopher in Boulder, Colorado where I am pursuing the art of web design and development.</p>
+                </div>
+                <div id="groom" class="eight columns omega">
+                    <h1>groom</h1>
+                    <h2>christopher steenbock</h2>
+                    <p>asdlkfjasdlkfjdkj</p>
+                </div>
+                <div id="together" class="sixteen columns">
+                    <h1>together</h1>
+                    <p>
+                        We met in an economics class at Humboldt State University. Kyra was studying art and business and Christopher was studying biology and botany.  After quite some time, and one coffee date, Kyra asked Chris to go skiing, (and had secretly already rented his gear). After being rained out of the slushy snow, we had a wonderful dinner together. We have been together for over six lovely years.
 
-Throughout the rest of our time in northern California, we lived two blocks apart, and shared many memorable times with our friends and roomates. You never know when enrolling in Economics 104 could change your life. 
-            </p>
-            <h1>proposal</h1>
-            <p>
-                Christopher has never been one to be passionate about Christmas decorations.  I figured he was just excited to use his saw when he insisted we get a fir tree for our tiny apartment.  We drove across a snowy pass to reach forest service land, with cross-country skiis in tow!  Christopher had been designing the engagement ring since the past spring with my jewelry friend and mentor Jennifer.  I had no idea.  He had also told everyone he could, that he was proposing that day and even organized a celebration that very evening.  Confidence.  Truddging through fluffy snow, we considered trees with critical eyes. Once we agreed on a cute little fir, Christopher knelt to the base of the tree with his saw.  In one fell swoop a box was in his hand enclosing the most unique ring, and a question that left me speechless....for a minute!
-            </p>
-        </div>
-    </div>
-</article>
-       
-    <div id="photographs" name="photographs" class="sixteen columns">
+        Throughout the rest of our time in northern California, we lived two blocks apart, and shared many memorable times with our friends and roomates. You never know when enrolling in Economics 104 could change your life. 
+                    </p>
+                    <h1>proposal</h1>
+                    <p>
+                        Christopher has never been one to be passionate about Christmas decorations.  I figured he was just excited to use his saw when he insisted we get a fir tree for our tiny apartment.  We drove across a snowy pass to reach forest service land, with cross-country skiis in tow!  Christopher had been designing the engagement ring since the past spring with my jewelry friend and mentor Jennifer.  I had no idea.  He had also told everyone he could, that he was proposing that day and even organized a celebration that very evening.  Confidence.  Truddging through fluffy snow, we considered trees with critical eyes. Once we agreed on a cute little fir, Christopher knelt to the base of the tree with his saw.  In one fell swoop a box was in his hand enclosing the most unique ring, and a question that left me speechless....for a minute!
+                    </p>
+                </div>
+            </div>
+        </article>
+        <div id="photographs" name="photographs" class="sixteen columns">
             <ul class="rslides">
                 <li><img src="img/ck.jpg" width="600px" height="auto" alt="Kyra and Chris"/></li>
                 <li><img src="img/fern.gif" alt="fern" width="600px" height="auto"></li>
             </ul>
-    </div>
+        </div>
         <article id="events" class="sixteen columns clearfix">
             <div id="ceremony" class="one-third column alpha">
                 <h1>4:30</h1>
                 <h2>ceremony</h2>
             </div>
             <div id="cocktails" class="one-third column alpha">
-            <h1>5:00</h1>
-            <h2>cocktails!</h2>
+                <h1>5:00</h1>
+                <h2>cocktails!</h2>
             </div>
             <div id="food" class="one-third column omega">
-            <h1>6:30</h1>
-            <h2>food + <span id="fest">festivities</span></h2>
+                <h1>6:30</h1>
+                <h2>food + <span id="fest">festivities</span></h2>
             </div>
         </article>
-    <article class="sixteen columns" id="bridal">
-        <div>
-        <h1 id="bridalParty" name="bridalParty">ladies</h1>
-            <section id="kelly" class="eight columns">
-                <h2>Kelly Morton</h2>
-                <p>Beginning at the age of seven, Kelly and Kyra could be found side by side while fishing, hiking, eating, biking, dancing, on stilts, on stage, on horse, on rikshaw, in hay, in snow, and in water.....Kelly is a beatuful person, one that Kyra would not want to be without in this life! She lives in central Oregon where she is a Waldorf school teacher.  Kelly and her family have contributed greatly to who Kyra is today.</p>
-            </section>
-            <section id="mila" class="eight columns">
-                <h2>Mila Bock</h2>
-                <p>Mila responded to a Craigslist ad for a roommate that Kyra posted while attending college at Humboldt State University. After that initial meeting and a poorly planned canoe trip, they were not only roommates, but close friends. Countless hours were spent with Mila at the kitchen table sipping coffee or beer, rambling on about life, while attempting to study. Mila has an admirable sense of adventure, and independence; a top-knotch lady!</p>
-            </section>
-        </div>
-        <div>
-            <h1 id="gentlemen">gentlemen</h1>
-            <section id="andy" class="eight columns alpha">
-                <h2>Andy Steenbock</h2>
-                <p>asldkfjasdlkfj</p>
-            </section>
-            <section id="matt" class="eight columns omega">
-                <h2>Matt Dino</h2>
-                <p>sdfasdfsd</p>
-            </section> 
-        </div>
-    </article>
-    <article id="map" name="map">
-        <div id="map-canvas" class="sixteen columns"></div>
-        <h2 id="address" class="sixteen columns">The Loft on Pine  <span id="a2">230 Pine                   Avenue</span>  <span id="a3">Long Beach, CA 90802</span>
-        </h2>
+        <article class="sixteen columns" id="bridal">
+            <div>
+                <h1 id="bridalParty" name="bridalParty">ladies</h1>
+                    <section id="kelly" class="eight columns">
+                        <h2>Kelly Morton</h2>
+                        <p>Beginning at the age of seven, Kelly and Kyra could be found side by side while fishing, hiking, eating, biking, dancing, on stilts, on stage, on horse, on rikshaw, in hay, in snow, and in water.....Kelly is a beatuful person, one that Kyra would not want to be without in this life! She lives in central Oregon where she is a Waldorf school teacher.  Kelly and her family have contributed greatly to who Kyra is today.</p>
+                    </section>
+                    <section id="mila" class="eight columns">
+                        <h2>Mila Bock</h2>
+                        <p>Mila responded to a Craigslist ad for a roommate that Kyra posted while attending college at Humboldt State University. After that initial meeting and a poorly planned canoe trip, they were not only roommates, but close friends. Countless hours were spent with Mila at the kitchen table sipping coffee or beer, rambling on about life, while attempting to study. Mila has an admirable sense of adventure, and independence; a top-knotch lady!</p>
+                    </section>
+            </div>
+            <div>
+                <h1 id="gentlemen">gentlemen</h1>
+                <section id="andy" class="eight columns alpha">
+                    <h2>Andy Steenbock</h2>
+                    <p>asldkfjasdlkfj</p>
+                </section>
+                <section id="matt" class="eight columns omega">
+                    <h2>Matt Dino</h2>
+                    <p>sdfasdfsd</p>
+                </section> 
+            </div>
+        </article>
+        <article id="map" name="map">
+            <div id="map-canvas" class="sixteen columns"></div>
+            <h2 id="address" class="sixteen columns">The Loft on Pine  
+                <span id="a2">230 Pine Avenue</span>  
+                <span id="a3">Long Beach, CA 90802</span>
+            </h2>
             <form action="http://maps.google.com/maps" method="get" target="_blank">
-                   <label for="saddr">Enter your location</label>
-                   <input type="text" name="saddr" />
-                   <input type="hidden" name="daddr" value="230 Pine Avenue Long Beach California                       90802"/>
-                   <input type="submit" value="Get directions" id="button"/>
+                <label for="saddr">Enter your location</label>
+                <input type="text" name="saddr" />
+                <input type="hidden" name="daddr" value="230 Pine Avenue Long Beach California                       90802"/>
+                <input type="submit" value="Get directions" id="button"/>
             </form>
-    </article>
+        </article>
         <article class="sixteen-columns clearfix" id="stay">
             <h1 id="acc" name="acc">accomodations</h1>
             <div class="one-third column alpha">
@@ -210,29 +202,28 @@ Throughout the rest of our time in northern California, we lived two blocks apar
             <h2 id="gift">We are fortunate enough to already have the material items<br> we need,               and would greatly appreciate monetary gifts<br> to pay for our celebration!</h2>
             <a id="registry" href="">So Kind Registry</a><br>
         </article>
-            <footer class="sixteen columns">
-                <img id="bottom" class="eight columns" src="img/fern_cut.gif" width="30em"      height="auto">
-                <h1 id="thanks">Thank you!</h1>
-                <h3>Kyra design &copy 2014</h3>
-            </footer>
+        <footer class="sixteen columns">
+            <img id="bottom" class="eight columns" src="img/fern_cut.gif" width="30em"                              height="auto">
+            <h1 id="thanks">Thank you!</h1>
+            <h3>Kyra design &copy 2014</h3>
+        </footer>
+        
      <!-- js =============-->
 
-            <script>
-                var nav = responsiveNav("#nav-collapse");
-            </script>
-            <script src="js/jquery.nav.js"></script>    
-            <script>
-                $(function() {
-                    $(".rslides").responsiveSlides();
-                    $('#nav, #nav-collapse').onePageNav();
-                  });
-            </script>
-            <script>
-                $(document).ready(function() {
-
-                });
-            </script>
-        </div>
+        <script>
+            var nav = responsiveNav("#nav-collapse");
+        </script>
+        <script src="js/jquery.nav.js"></script>    
+        <script>
+            $(function() {
+                $(".rslides").responsiveSlides();
+                $('#nav, #nav-collapse').onePageNav();
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+            });
+        </script>
     </body>
 </html>
 

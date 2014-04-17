@@ -68,6 +68,7 @@ nav{
 }
 ul#nav{	
     color:#999944;
+    padding:0;
 }
 #nav-collapse{
     display:none;
@@ -160,6 +161,9 @@ article#events h1{
     display:block;
     height:200px;
     margin-top:30px;
+}
+#map{
+    display: block;
 }
 #button{
     border:1px solid #999944;
