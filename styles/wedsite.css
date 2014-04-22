@@ -73,6 +73,7 @@ ul#nav{
 #nav-collapse{
     display:none;
 }
+
 .current{
     opacity: .6;
 }
@@ -252,6 +253,7 @@ footer h1, footer h3{
 }
 label, input{
     margin: 1em;
+    outline: none;
 }
 @media screen and (max-width: 960px) {
     #food{
@@ -264,6 +266,9 @@ label, input{
     #nav-collapse{
         display: none;
     }
+    #nav-narrow{
+        display: none;
+    }
     #homeHome{
         width:28em;
     }
@@ -273,28 +278,32 @@ label, input{
 } 
 
 @media screen and (max-width:770px) {
+    img#homeHome{
+        display: none;
+    }
      ul#nav{
         display:none;
+    }
+    #nav-narrow{
+       display: block;
     }
     ul#nav-collapse{
         display: block;
         list-style: none;
         background: #ffffff;
-        margin-top: -160px;
-        padding:17px;
     }
     ul#nav-collapse li{
-        text-align: left;
+        text-align: right;
     }
     a.nav-toggle{
         display: inline;
-        width:100%;
         margin: auto;
         font-family: disco;
         color:#536e09;
-        margin-right: 10em;
         position: relative;
         z-index: 25;
+        float:left;
+        margin-top: 15px;
     }
     nav{
         text-align: center;
