@@ -73,7 +73,9 @@ ul#nav{
 #nav-collapse{
     display:none;
 }
-
+#nav-narrow{
+    display: none;
+}
 .current{
     opacity: .6;
 }
