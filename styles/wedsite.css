@@ -94,6 +94,7 @@ a:hover{
 }
 #photographs{
     margin-top:30px;
+    display: block;
 } 
 #bridal{
 }
@@ -163,7 +164,7 @@ article#events h1{
     height:200px;
     margin-top:30px;
 }
-#map{
+form{
     display: block;
 }
 #button{
@@ -217,13 +218,13 @@ i{
     line-height: 20px;
     color:#536e09;
     font-family: goudybookletter1911, serif;
+    font-size: 1.2em;
 }
 #giftSection{
-    background:url(/Users/Kyra/Documents/coding/wedding/img/berryBack2.png) no-repeat center;
+    background:url(img/berryBack2.png) no-repeat center;
     background-size: 970px auto;
     padding-bottom: 15px;
     margin-top: 30px;
-    box-sizing: border-box;
     font-size: 1.2em;
 }
 #registry{
@@ -243,7 +244,7 @@ footer{
 }
 img#bottom{
     display: inline;
-    float:right;
+   -webkit-transform: rotate(180deg);
 }
 footer h1 {
     padding-top: 30px;
@@ -280,6 +281,14 @@ label, input{
 } 
 
 @media screen and (max-width:770px) {
+    #nav-narrow h1{
+        display: inline-block;
+        position: relative;
+        z-index: 0;
+        padding-top: 10px;
+        font-family: goudybookletter1911, goudy old style, serif;
+        text-transform: lowercase;
+    }
     img#homeHome{
         display: none;
     }
@@ -293,6 +302,9 @@ label, input{
         display: block;
         list-style: none;
         background: #ffffff;
+        position: relative;
+        z-index: 20;
+        margin-top: 0;
     }
     ul#nav-collapse li{
         text-align: right;
@@ -309,6 +321,9 @@ label, input{
     }
     nav{
         text-align: center;
+    }
+    #green{
+        margin-top:50px;
     }
     #together{
         padding-top: 25px;
@@ -344,12 +359,18 @@ label, input{
     }
     img#bottom{
         margin-top:0px;
+        text-align: center;
     }
     footer{
         margin-top: 0;
     }
 }
 @media screen and (max-width:480px) {
+    #nav-narrow h1{
+        text-align: right;
+        display: inline-block;
+        font-size: 1.8em;
+    }
     img#homeHome{
         display: none;
     }
@@ -358,6 +379,7 @@ label, input{
         position: fixed;
     }
     a.nav-toggle{
+        display: inline;
     }
     a.nav-toggle:hover{
     }
@@ -366,9 +388,6 @@ label, input{
     #kyra p, #groom p, #matt p, #andy p{
         padding-right:1.2em;
         padding-left: 1.2em;
-    }
-    #green{
-        margin-top:120px;
     }
     #groom{
         padding-top: 30px;
