@@ -36,10 +36,35 @@
 	<script>
         function initialize() {
             var myCenter=new google.maps.LatLng(33.768918, -118.19227);
+            
+            var styles = [
+  {
+    stylers: [
+      { hue: "#587605" },
+      { saturation: -60 }
+    ]
+  },{
+    featureType: "road",
+    elementType: "geometry",
+    stylers: [
+      { lightness: 100 },
+      { visibility: "simplified" }
+    ]
+  },{
+    featureType: "road",
+    elementType: "labels",
+    stylers: [
+      { visibility: "off" }
+    ]
+  }
+];
+   
             var mapOptions = {
                 zoom: 8,
                 center: myCenter,
+                styles: styles
             }
+            
             var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     
             var marker=new google.maps.Marker({
@@ -126,10 +151,10 @@
             </div>
         </article>
         <div id="photographs" name="photographs" class="sixteen columns">
-            <ul class="rslides" class="ten columns">
-                <li><img src="img/ck.jpg"  height=auto width="400px" alt="Kyra and Chris"/></li>
-                <li><img src="img/newYears.jpg" height=auto width="400px" alt="fern"></li>
-            </ul>
+            <!--class="rslides" in ul--> 
+            <!--<ul class="sixteen columns">-->
+               <img src="img/usPink.jpg"  class="sixteen columns" alt="Kyra and Chris"/>
+                <!--<li><img src="img/newYears.jpg" height=auto width="400px" alt="fern"></li>-->
         </div>
         <article id="events" class="sixteen columns clearfix">
             <div id="ceremony" class="one-third column alpha">
@@ -190,7 +215,7 @@
                 <a class="hotel" href="airbnb.com">Airbnb</a>
             </div>
             <div class="one-third column alpha">
-                <h2 class="location" ><i>walk to the venue</i><br> Modern facade, historic, and                     tiny. For the adventuresome guest.</h2>
+                <h2 class="location" ><i>Walk to the venue</i><br> Modern, micro European style. For the adventuresome guest.</h2>
                 <a class="hotel" href="http://www.thevardenhotel.com/photo%20gallery.htm#photo">The                 Varden</a>
             </div>
             <div class="one-third column omega">
@@ -204,9 +229,9 @@
             <a id="registry" target="_blank" href="http://www.honeyfund.com/wedding/kandcwedding">Honeyfund</a><br>
         </article>
         <footer class="sixteen columns">
-            <img id="bottom" src="img/fern_cut.gif" width="300px"                              height="auto">
             <h1 id="thanks" class="sixteen columns">Thank you!</h1>
             <h3 class="sixteen columns">Kyra design &copy 2014</h3>
+            <img id="bottom" src="img/fern_cut.gif" width="300px"                              height="auto">
         </footer>
         
      <!-- js =============-->
