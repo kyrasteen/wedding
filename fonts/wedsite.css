@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'goudy_bookletter_1911regular';
-    src: url('/goudy_bookletter_1911-webfont.eot');
-    src: url('/goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/goudy_bookletter_1911-webfont.woff') format('woff'),
-         url('/goudy_bookletter_1911-webfont.ttf') format('truetype'),
-         url('/goudy_bookletter_1911-webfont.svg#goudy_bookletter_1911regular') format('svg');
+    src: url('goudy_bookletter_1911-webfont.eot');
+    src: url('goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
+         url('goudy_bookletter_1911-webfont.woff') format('woff'),
+         url('goudy_bookletter_1911-webfont.ttf') format('truetype'),
+         url('goudy_bookletter_1911-webfont.svg#goudy_bookletter_1911regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -12,16 +12,16 @@
 
 @font-face {
     font-family: 'discoregular';
-    src: url('/DISCO___-webfont.eot');
-    src: url('/DISCO___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/DISCO___-webfont.woff') format('woff'),
-         url('/DISCO___-webfont.ttf') format('truetype'),
-         url('/DISCO___-webfont.svg#discoregular') format('svg');
+    src: url('DISCO___-webfont.eot');
+    src: url('DISCO___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DISCO___-webfont.woff') format('woff'),
+         url('DISCO___-webfont.ttf') format('truetype'),
+         url('DISCO___-webfont.svg#discoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 html{
-	font-family:'goudy_bookletter_1911regular', sans-serif;
+	font-family:goudy_bookletter_1911regular, sans-serif;
 	color:#999944;
 	text-align:center;
 	font-size: 62.5%;  /*ems*/
@@ -45,12 +45,12 @@ h1{
 	text-align:center;
 	display:inline;
     text-transform: uppercase;
-    font-family: 'discoregular', sans-serif;
+    font-family: discoregular, sans-serif;
 }
 p{
     color:#536e09;
     font-size: 1.3em;
-    font-family:'goudy_bookletter_1911regular', sans-serif;
+    font-family:goudy_bookletter_1911regular, sans-serif;
 }
 #green{
     padding:30px 0 30px 0;
@@ -71,7 +71,7 @@ h2{
     font-size: 1.3em;
     color:#999944;
     line-height: 0;
-    font-family: 'goudy_bookletter_1911regular', goudy old style;
+    font-family: goudy_bookletter_1911regular, goudy old style;
 }
 nav{
     text-align: right;
@@ -85,7 +85,7 @@ nav{
 	letter-spacing:2px;
     color:#999944;
     padding:7px;
-    font-family: 'goudy_bookletter_1911regular', goudy old style;
+    font-family: goudy_bookletter_1911regular, goudy old style;
 }
 ul#nav{	
     color:#999944;
@@ -104,7 +104,7 @@ a{
 	text-decoration: none;
 	font-size: 1.4em;
     color:#536e09;
-    font-family: 'goudy_bookletter_1911regular', goudy old style;
+    font-family: goudy_bookletter_1911regular, goudy old style;
     letter-spacing: 2px;
 }
 a:active{
@@ -158,7 +158,7 @@ a:hover{
     padding-bottom: 30px;
 }
 article#events h1{
-    font-family: 'discoregular';
+    font-family: discoregular;
 }
 #bridalParty{
     margin:auto 0;
@@ -192,7 +192,7 @@ form{
     border:1px solid #999944;
     outline: none;
     background: none;
-    font-family: 'goudy_bookletter_1911regular', serif;
+    font-family: goudy_bookletter_1911regular, serif;
     letter-spacing: 1px;
 }
 #button:hover{
@@ -202,7 +202,7 @@ form{
 }
 #address{
 	text-align: center;
-    font-family:'goudy_bookletter_1911regular', goudy old style;
+    font-family:goudy_bookletter_1911regular, goudy old style;
     color:#999944;
     display:inline;
     font-size: 1.3em;
@@ -219,7 +219,7 @@ i{
     color:#536e09;
 }
 .hotel{
-    font-family: 'discoregular';
+    font-family: discoregular;
     line-height:1em;
     font-size: 1.7em;
     border:1px solid #536e09;
@@ -238,7 +238,7 @@ i{
     margin-bottom:30px;
     line-height: 20px;
     color:#536e09;
-    font-family: 'goudy_bookletter_1911regular', serif;
+    font-family: goudy_bookletter_1911regular, serif;
     font-size: 1.2em;
 }
 #giftSection{
@@ -248,7 +248,7 @@ i{
     font-size: 1.2em;
 }
 #registry{
-    font-family: 'discoregular', sans-serif;
+    font-family: discoregular, sans-serif;
     padding:5px;
     color: #536e09;
     background: white;
@@ -256,7 +256,7 @@ i{
      border:1px solid #536e09;
 }
 footer{
-	font-family: 'goudy_bookletter_1911regular', goudy old style;
+	font-family: goudy_bookletter_1911regular, goudy old style;
 	font-size: 0.8em;
 	text-align:center;
 	display:block;
@@ -306,7 +306,7 @@ label, input{
         position: relative;
         z-index: 0;
         padding-top: 10px;
-        font-family: 'goudy_bookletter_1911regular', goudy old style, serif;
+        font-family: goudy_bookletter_1911regular, goudy old style, serif;
         text-transform: lowercase;
     }
     img#homeHome{
@@ -332,7 +332,7 @@ label, input{
     a.nav-toggle{
         display: inline;
         margin: auto;
-        font-family: 'discoregular';
+        font-family: discoregular;
         color:#536e09;
         position: relative;
         z-index: 25;
