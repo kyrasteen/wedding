@@ -21,7 +21,7 @@
     font-style: normal;
 }
 html{
-	font-family:goudybookletter1911, sans-serif;
+	font-family:'goudy_bookletter_1911regular', sans-serif;
 	color:#999944;
 	text-align:center;
 	font-size: 62.5%;  /*ems*/
@@ -45,12 +45,12 @@ h1{
 	text-align:center;
 	display:inline;
     text-transform: uppercase;
-    font-family: disco, sans-serif;
+    font-family: 'discoregular', sans-serif;
 }
 p{
     color:#536e09;
     font-size: 1.3em;
-    font-family:goudybookletter1911, sans-serif;
+    font-family:'goudy_bookletter_1911regular', sans-serif;
 }
 #green{
     padding:30px 0 30px 0;
@@ -71,7 +71,7 @@ h2{
     font-size: 1.3em;
     color:#999944;
     line-height: 0;
-    font-family: goudybookletter1911, goudy old style;
+    font-family: 'goudy_bookletter_1911regular', goudy old style;
 }
 nav{
     text-align: right;
@@ -85,7 +85,7 @@ nav{
 	letter-spacing:2px;
     color:#999944;
     padding:7px;
-    font-family: goudybookletter1911, goudy old style;
+    font-family: 'goudy_bookletter_1911regular', goudy old style;
 }
 ul#nav{	
     color:#999944;
@@ -104,7 +104,7 @@ a{
 	text-decoration: none;
 	font-size: 1.4em;
     color:#536e09;
-    font-family: goudybookletter1911, goudy old style;
+    font-family: 'goudy_bookletter_1911regular', goudy old style;
     letter-spacing: 2px;
 }
 a:active{
@@ -158,7 +158,7 @@ a:hover{
     padding-bottom: 30px;
 }
 article#events h1{
-    font-family: disco;
+    font-family: 'discoregular';
 }
 #bridalParty{
     margin:auto 0;
@@ -192,7 +192,7 @@ form{
     border:1px solid #999944;
     outline: none;
     background: none;
-    font-family: goudybookletter1911, serif;
+    font-family: 'goudy_bookletter_1911regular', serif;
     letter-spacing: 1px;
 }
 #button:hover{
@@ -202,7 +202,7 @@ form{
 }
 #address{
 	text-align: center;
-    font-family:goudybookletter1911, goudy old style;
+    font-family:'goudy_bookletter_1911regular', goudy old style;
     color:#999944;
     display:inline;
     font-size: 1.3em;
@@ -219,7 +219,7 @@ i{
     color:#536e09;
 }
 .hotel{
-    font-family: disco;
+    font-family: 'discoregular';
     line-height:1em;
     font-size: 1.7em;
     border:1px solid #536e09;
@@ -238,18 +238,17 @@ i{
     margin-bottom:30px;
     line-height: 20px;
     color:#536e09;
-    font-family: goudybookletter1911, serif;
+    font-family: 'goudy_bookletter_1911regular', serif;
     font-size: 1.2em;
 }
 #giftSection{
-    background:url(img/berryBack2.png) no-repeat center;
     background-size: 970px auto;
     padding-bottom: 15px;
     margin-top: 30px;
     font-size: 1.2em;
 }
 #registry{
-    font-family: disco, sans-serif;
+    font-family: 'discoregular', sans-serif;
     padding:5px;
     color: #536e09;
     background: white;
@@ -257,7 +256,7 @@ i{
      border:1px solid #536e09;
 }
 footer{
-	font-family: goudybookletter1911, goudy old style;
+	font-family: 'goudy_bookletter_1911regular', goudy old style;
 	font-size: 0.8em;
 	text-align:center;
 	display:block;
@@ -307,7 +306,7 @@ label, input{
         position: relative;
         z-index: 0;
         padding-top: 10px;
-        font-family: goudybookletter1911, goudy old style, serif;
+        font-family: 'goudy_bookletter_1911regular', goudy old style, serif;
         text-transform: lowercase;
     }
     img#homeHome{
@@ -333,7 +332,7 @@ label, input{
     a.nav-toggle{
         display: inline;
         margin: auto;
-        font-family: disco;
+        font-family: 'discoregular';
         color:#536e09;
         position: relative;
         z-index: 25;
