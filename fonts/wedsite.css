@@ -277,6 +277,10 @@ footer h1, footer h3{
 label, input{
     margin: 1em;
     outline: none;
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.3em;
 }
 @media screen and (max-width: 960px) {
     #food{
@@ -300,7 +304,7 @@ label, input{
     }
 } 
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:775px) {
     #nav-narrow h1{
         display: inline-block;
         position: relative;
@@ -317,6 +321,7 @@ label, input{
     }
     #nav-narrow{
        display: block;
+       margin-top: 0px;
     }
     ul#nav-collapse{
         display: block;
@@ -341,6 +346,7 @@ label, input{
     }
     nav{
         text-align: center;
+        margin-top: 1em;
     }
     #green{
         margin-top:50px;
@@ -351,7 +357,7 @@ label, input{
         position: relative;
     }
     #fest{
-    line-height: 1.9em;
+        line-height: 1.9em;
     }
     #kelly p, #mila p, #mila h2, #kelly h2{
         padding-left: 1em;
@@ -382,10 +388,10 @@ label, input{
         text-align: center;
     }
     footer{
-        margin-top: 0;
+        margin-top: 0px;
     }
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:500px) {
     #nav-narrow h1{
         text-align: right;
         display: inline-block;
@@ -401,10 +407,6 @@ label, input{
     a.nav-toggle{
         display: inline;
     }
-    a.nav-toggle:hover{
-    }
-    ul#nav-collapse{
-    }
     #kyra p, #groom p, #matt p, #andy p{
         padding-right:1.2em;
         padding-left: 1.2em;
@@ -417,6 +419,5 @@ label, input{
   }
     img#bottom{
     margin-top:0px;
-    }  
-    
+    } 
 }
