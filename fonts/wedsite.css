@@ -282,6 +282,10 @@ label, input{
 h3{
     font-size: 1.3em;
 }
+#add{
+        font-family: goudy_bookletter_1911regular;
+        color:#536e09;
+    }
 @media screen and (max-width: 960px) {
     #food{
     display:block;
@@ -355,6 +359,15 @@ h3{
         padding-top: 25px;
         display:block;
         position: relative;
+
+    }
+    #together p{
+        margin-right: 30px;
+    }
+    #photographs img{
+        height: auto;
+        width: 97%;
+
     }
     #fest{
         line-height: 1.9em;

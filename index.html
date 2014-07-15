@@ -20,10 +20,7 @@
     });
     </script>
     <title>Kyra and Christopher's wedding website</title>
-    
-    <!--responsive slide=========================-->
-    
-    <script src="js/responsiveslides.min.js"></script>  
+     
     
     <!--map=================================-->
     
@@ -146,10 +143,8 @@
             </div>
         </article>
         <div id="photographs" name="photographs" class="sixteen columns">
-            <!--class="rslides" in ul--> 
-            <!--<ul class="sixteen columns">-->
                <img src="img/usPink.jpg"  class="sixteen columns" alt="Kyra and Chris"/>
-                <!--<li><img src="img/newYears.jpg" height=auto width="400px" alt="fern"></li>-->
+                
         </div>
         <article id="events" class="sixteen columns clearfix">
             <div id="ceremony" class="one-third column alpha">
@@ -198,8 +193,8 @@
             <h3>*Reserved Parking lot in back of venue*<br>Please see invitation</h3>
             <form action="http://maps.google.com/maps" method="get" target="_blank">
                 <label for="saddr">Enter your location</label>
-                <input type="text" name="saddr" />
-                <input type="hidden" name="daddr" value="230 Pine Avenue Long Beach California                       90802"/>
+                <input type="text" name="saddr" id='add' />
+                <input type="hidden" name="daddr" value="230 Pine Avenue Long Beach California 90802"/>
                 <input type="submit" value="Get directions" id="button"/>
             </form>
         </article>
@@ -237,7 +232,6 @@
         <script src="js/jquery.nav.js"></script>    
         <script>
             $(function() {
-                $(".rslides").responsiveSlides();
                 $('#nav, #nav-collapse').onePageNav();
             });
         </script>
@@ -245,6 +239,7 @@
             $(document).ready(function() {
             });
         </script>
+    </div>
     </body>
 </html>
 
