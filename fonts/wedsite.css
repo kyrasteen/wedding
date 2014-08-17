@@ -24,7 +24,7 @@ html{
 	font-family:goudy_bookletter_1911regular, sans-serif;
 	color:#999944;
 	text-align:center;
-	font-size: 62.5%;  /*ems*/
+	font-size: 68%;  /*ems*/
 	line-height: 20px;
 }
 html, body {
@@ -49,7 +49,8 @@ h1{
 }
 p{
     color:#536e09;
-    font-size: 1.3em;
+    font-size: 1.6em;
+    line-height:1.7em;
     font-family:goudy_bookletter_1911regular, sans-serif;
 }
 #green{
