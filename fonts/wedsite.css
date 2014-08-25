@@ -171,12 +171,12 @@ article#events h1{
     display: block;
     position: relative;
 }
-#kelly{
+#kelly, #andy{
     text-align: right;
     margin:auto 0;
     margin-right: 7px;
 }
-#mila{
+#mila, #matt{
     text-align: left;
     margin: auto 0;
     margin-left: 7px;
